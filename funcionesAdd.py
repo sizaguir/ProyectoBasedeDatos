@@ -5,10 +5,10 @@ import funcionesTablas as ft
 
 def conectar():
     config = {
-        'user': 'tu_usuario',
-        'password': 'tu_contraseña',
+        'user': 'root',
+        'password': 'root',
         'host': 'localhost',
-        'database': 'tu_base_de_datos',
+        'database': 'aulavirtual',
         'raise_on_warnings': True
     }
 

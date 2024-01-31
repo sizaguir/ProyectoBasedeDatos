@@ -12,10 +12,10 @@ def eliminar_por_id(tabla, id_a_eliminar):
             break;  
           
         conexion = mysql.connector.connect(
-            'user': 'tu_usuario',
-            'password': 'tu_contraseña',
+            'user': 'root',
+            'password': 'root',
             'host': 'localhost',
-            'database': 'tu_base_de_datos',
+            'database': 'aulavirtual',
             'raise_on_warnings': True
         )
         cursor = conexion.cursor()
@@ -41,10 +41,10 @@ def eliminar_por_id(tabla, id_a_eliminar):
 def eliminar_por_usuario(tabla, usuarioEliminar):
   try:
       conexion = mysql.connector.connect(
-            'user': 'tu_usuario',
-            'password': 'tu_contraseña',
+            'user': 'root',
+            'password': 'root',
             'host': 'localhost',
-            'database': 'tu_base_de_datos',
+            'database': 'aulavirtual',
             'raise_on_warnings': True
         )
       cursor = conexion.cursor()
